@@ -126,8 +126,8 @@
 		</div>
 		<!-- end display-mobile -->
     </aside>
-    <nav class="navbar">
-      <div class="logo"> <a href="index.html"> <img src="images/logo.png" alt="Image"> </a> </div>
+    <nav class="navbar light">
+      <div class="logo"> <a href="index.html"> <img src="images/logo-light.png" alt="Image"> </a> </div>
       <!-- end logo -->
       <div class="custom-menu">
         <ul>
@@ -161,36 +161,9 @@
     </nav>
     <!-- end navbar -->
     <header class="slider">
-      <div class="swiper-container slider-images">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide" data-background="images/slide01.jpg">
-			<div class="mobile-slide" data-background="images/slide-mobile01.jpg"></div>
-			</div>
-          <div class="swiper-slide" data-background="images/slide02.jpg">
-			<div class="mobile-slide" data-background="images/slide-mobile02.jpg"></div>
-			</div>
-          <div class="swiper-slide" data-background="images/slide03.jpg">
-			<div class="mobile-slide" data-background="images/slide-mobile03.jpg"></div>
-			</div>
-        </div>
-        <!-- end swiper-wrapper -->
-        <div class="container-fluid slider-nav">
-          <div class="swiper-pagination"></div>
-          <!-- end swiper-pagination -->
-          <div class="swiper-fraction"></div>
-          <!-- end swiper-fraction -->
-          <div class="button-prev"><i class="far fa-chevron-down"></i></div>
-          <!-- end swiper-button-prev -->
-          <div class="button-next"><i class="far fa-chevron-up"></i></div>
-          <!-- end swiper-button-next --> 
-        </div>
-        <!-- end slider-nav --> 
-      </div>
-      <!-- end slider-images -->
-      <div class="swiper-container slider-texts">
-        <svg width="580" height="400" class="svg-morph">
-          <path id="svg_morph" d="m261,30.4375c0,0 114,6 151,75c37,69 37,174 6,206.5625c-31,32.5625 -138,11.4375 -196,-19.5625c-58,-31 -86,-62 -90,-134.4375c12,-136.5625 92,-126.5625 129,-127.5625z" />
-        </svg>
+      <div id="kinetic-slider" class="kinetic-slider"></div>
+      <!-- end kinetic-slider -->
+      <div class="swiper-container kinetic-texts">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="container-fluid">
@@ -225,23 +198,15 @@
           <!-- end swiper-slide --> 
         </div>
         <!-- end swiper-wrapper --> 
+		  <div class="container-fluid slider-nav">
+          <div class="button-prev main-nav prev"><i class="far fa-chevron-down"></i></div>
+          <!-- end swiper-button-prev -->
+          <div class="button-next main-nav next"><i class="far fa-chevron-up"></i></div>
+          <!-- end swiper-button-next --> 
+        </div>
+        <!-- end slider-nav -->
       </div>
       <!-- end slider-texts -->
-      <div class="play-now"> <a href="videos/video.mp4" data-fancybox data-width="640" data-height="360"  class="play-btn"></a>
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300px" height="300px" viewBox="0 0 300 300" enable-background="new 0 0 300 300" xml:space="preserve">
-          <defs>
-            <path id="circlePath" d="M 150, 150 m -60, 0 a 60,60 0 0,1 120,0 a 60,60 0 0,1 -120,0 "/>
-          </defs>
-          <circle cx="150" cy="100" r="75" fill="none"/>
-          <g>
-            <use xlink:href="#circlePath" fill="none"/>
-            <text>
-              <textPath xlink:href="#circlePath">PLAY NOW  - PLAY NOW - PLAY NOW -</textPath>
-            </text>
-          </g>
-        </svg>
-      </div>
-      <!-- end play-now --> 
     </header>
     <!-- end slider -->
     <section class="content-section" data-background="#fffbf7">
@@ -261,7 +226,7 @@
           </div>
           <!-- end col-7 -->
           <div class="col-lg-5">
-            <div class="side-icon-list right-side">
+            <div class="side-icon-list">
               <ul>
                 <li>
                   <figure> <img src="images/icon01.png" alt="Image"> </figure>
@@ -301,6 +266,7 @@
       <!-- end container --> 
     </section>
     <!-- end content-section -->
+    
     <section class="content-section">
       <div class="container">
         <div class="row justify-content-center">
@@ -320,7 +286,7 @@
         <!-- end row -->
         <div class="row justify-content-center">
           <div class="col-lg-4 col-md-6">
-            <div class="exhibition-box" data-scroll data-scroll-speed="-1" >
+            <div class="event-box" data-scroll data-scroll-speed="-1" >
               <figure> <a href="#"><img src="images/event01.jpg" alt="Image" class="img"></a>
                 <div class="info">
                   <figure class="i"><img src="images/icon-info.png" alt="Image"></figure>
@@ -334,11 +300,11 @@
               </div>
               <!-- end content-box --> 
             </div>
-            <!-- end exhibition-box --> 
+            <!-- end event-box --> 
           </div>
           <!-- end col-4 -->
           <div class="col-lg-4 col-md-6">
-            <div class="exhibition-box" data-scroll data-scroll-speed="1">
+            <div class="event-box" data-scroll data-scroll-speed="1">
               <figure> <a href="#"><img src="images/event02.jpg" alt="Image" class="img"></a>
                 <div class="info">
                   <figure class="i"><img src="images/icon-info.png" alt="Image"></figure>
@@ -352,10 +318,10 @@
               </div>
               <!-- end content-box --> 
             </div>
-            <!-- end exhibition-box --> </div>
+            <!-- end event-box --> </div>
           <!-- end col-4 -->
           <div class="col-lg-4 col-md-6">
-            <div class="exhibition-box" data-scroll data-scroll-speed="-0.5" >
+            <div class="event-box" data-scroll data-scroll-speed="-0.5" >
               <figure> <a href="#"><img src="images/event03.jpg" alt="Image" class="img"></a>
                 <div class="info">
                   <figure class="i"><img src="images/icon-info.png" alt="Image"></figure>
@@ -369,7 +335,7 @@
               </div>
               <!-- end content-box --> 
             </div>
-            <!-- end exhibition-box --></div>
+            <!-- end event-box --></div>
           <!-- end col-4 -->
           <div class="col-12 text-center"> <a href="#" class="custom-button">VIEW ALL UPCOMING EVENTS</a> </div>
           <!-- end col-12 --> 
@@ -433,7 +399,7 @@
         </div>
         <!-- end row --> 
       </div>
-      <!-- end container -->
+      <!-- end container --
 		<div class="clearfix spacing-100"></div>
       <div class="horizontal-scroll">
         <div class="scroll-inner" data-scroll data-scroll-direction="horizontal" data-scroll-speed="5">
@@ -784,9 +750,10 @@
 <script src="js/locomotive-scroll.min.js"></script> 
 <script src="js/ScrollTrigger.min.js"></script> 
 <script src="js/kinetic-slider.js"></script> 
+<script src="js/kinetic-slider-inits.js"></script> 
 <script src="js/fancybox.min.js"></script> 
 <script src="js/odometer.min.js"></script> 
-<script src="js/swiper.min.js"></script> 
+<script src="js/swiper.min.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
