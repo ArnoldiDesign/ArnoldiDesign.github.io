@@ -86,7 +86,9 @@ html.has-scroll-smooth {
 }
 
 html.has-scroll-dragging {
-  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
   user-select: none;
 }
 
