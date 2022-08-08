@@ -81,12 +81,12 @@ body {
 
 html.has-scroll-smooth {
   overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 html.has-scroll-dragging {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
+  
   user-select: none;
 }
 
