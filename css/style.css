@@ -844,11 +844,12 @@ button[type="submit"] i {
   display: block;
 }
 .navbar .logo a img {
-  height: 72px;
+  height: 112px;
 }
 .navbar .custom-menu {
   display: inline-block;
   margin: 0 auto;
+  width: -80%;
 }
 .navbar .custom-menu ul {
   width: 100%;
@@ -902,6 +903,7 @@ button[type="submit"] i {
 }
 .navbar .site-menu {
   display: inline-block;
+  margin-left: 7% ;
 }
 .navbar .site-menu ul {
   width: 100%;
@@ -911,7 +913,7 @@ button[type="submit"] i {
 }
 .navbar .site-menu ul li {
   display: inline-block;
-  margin: 0 15px;
+  margin: 0 32px;
   padding: 0;
   list-style: none;
 }
@@ -1045,8 +1047,8 @@ button[type="submit"] i {
   opacity: 1;
 }
 .slider .kinetic-texts .swiper-slide h1 {
-  font-size: 126px;
-  font-weight: 400;
+  font-size: 106px;
+  font-weight: 380;
   font-family: 'Cinzel', serif;
   line-height: 1;
   margin-bottom: 30px;
@@ -1114,7 +1116,7 @@ button[type="submit"] i {
   align-items: center;
 }
 .slider .slider-texts .swiper-slide h1 {
-  font-size: 126px;
+  font-size: 106px;
   font-weight: 400;
   font-family: 'Cinzel', serif;
   line-height: 1;
@@ -3049,7 +3051,7 @@ button[type="submit"] i {
   margin-bottom: 15px;
 }
 .footer .logo img {
-  height: 64px;
+  height: 74px;
 }
 .footer .app-logos {
   width: 100%;
