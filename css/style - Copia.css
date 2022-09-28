@@ -1,4 +1,4 @@
-*
+/*
 
 @Author: Themezinho
 @URL: http://www.themezinho.net
@@ -81,6 +81,8 @@ body {
 
 html.has-scroll-smooth {
   overflow: hidden;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
   
 }
 
