@@ -67,6 +67,11 @@ theme.
   outline: none !important;
 }
 
+.no-mgpd {
+  margin: 0px;
+  padding: 0px;
+}
+
 
 
 body {
@@ -1480,6 +1485,7 @@ button[type="submit"] i {
 }
 
 .custom-button {
+  border-color: #080808;
   height: 70px;
   line-height: 70px;
   display: inline-block;
@@ -1502,7 +1508,7 @@ button[type="submit"] i {
   position: absolute;
   left: 0;
   top: 0;
-  border: 2px solid transparent;
+  border: 2px solid;
   -webkit-transition: .25s ease-in-out;
   -moz-transition: .25s ease-in-out;
   -ms-transition: .25s ease-in-out;
@@ -1824,7 +1830,7 @@ button[type="submit"] i {
   align-items: center;
   background: #080808;
   color: #fff;
-  padding: 100px 80px;
+  
 }
 .side-arts .titles {
   width: 100%;
@@ -3825,7 +3831,7 @@ button[type="submit"] i {
   .footer .footer-bottom .creation {
     width: 100%;
   }
-  
+
 }
 /* ANIMATIONS */
 @-webkit-keyframes rotate {
