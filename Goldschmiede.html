@@ -150,42 +150,48 @@
     <!-- end page-header -->
     <section class="content-section no-bottom-spacing">
       <div class="container">
-      
-		  <!-- end row -->
 		  <div class="row justify-content-center">
-			<div class="col-lg-4 col-md-6">
-				<div class="image-content-box" data-scroll="" data-scroll-speed="0">
-					<figure>
-					<img src="images/Goldschimiede/gold_box1.png" alt="Image">
-					</figure>
-					
-					<!-- end content-box -->
-				</div>
-				<!-- end image-content-box -->
-			</div>
-			<!-- end col-4 -->
-			<div class="col-lg-4 col-md-6">
-				<div class="image-content-box" data-scroll="" data-scroll-speed="0">
-					<figure>
-					<img src="images/Goldschimiede/gold_box2.png" alt="Image">
-					</figure>
-					
-					<!-- end content-box -->
-				</div>
-				<!-- end image-content-box -->
-			</div>
-			<!-- end col-4 -->
-			<div class="col-lg-4 col-md-6">
-				<div class="image-content-box" data-scroll="" data-scroll-speed="0">
-					<figure>
-					<img src="images/Goldschimiede/gold_box3.png" alt="Image">
-					</figure>
-					
-					<!-- end content-box -->
-				</div>
-				<!-- end image-content-box -->
-			</div>
-			<!-- end col-4 -->
+				<div class="col-12">
+          <div class="image-box-carousel">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                
+              <figure><img src="images/Goldschimiede/KWS_jewelry-0102.jpg" alt="Image"></figure>
+                
+                <!-- end content-box -->
+              </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide">
+              <figure><img src="images/Goldschimiede/KWS_jewelry-0238.jpg" alt="Image"></figure>
+                
+                <!-- end content-box -->
+              </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide">
+              <figure><img src="images/Goldschimiede/KWS_jewelry-0239.jpg" alt="Image"></figure>
+                
+                <!-- end content-box -->
+              </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide">
+              <figure><img src="images/Goldschimiede/KWS_jewelry-0119.jpg" alt="Image"></figure>
+               
+                <!-- end content-box -->
+              </div>
+              <!-- end swiper-slide -->
+              <div class="swiper-slide">
+              <figure><img src="images/Goldschimiede/KWS_jewelry-0153.jpg" alt="Image"></figure>
+                
+                <!-- end content-box -->
+              </div>
+              
+              <!-- end swiper-slide -->
+            </div>
+            <!-- end swiper-wrapper -->
+          </div>
+          <!-- end image-box-carousel -->	
+        </div>
+        <!-- end col-12 -->
         </div>
         <!-- end row --> 
       </div>
@@ -225,6 +231,24 @@
       <!-- end container --> 
     </section>
 
+    <section class="content-section" data-background="images/Ubermich/ruthprofile1.png">
+      <div class="container">
+        <div class="row">
+		  <div class="col-lg-6">
+			<div class="note-box">
+			 <h2 style="font-size:48px;">
+        Ich freue mich auf tolle Begegnungen mit Ihnen.</h2>
+
+        <a href="Kontakt.html" class="custom-button">KONTAKT</a>
+			  </div>
+			  <!-- end note-box -->
+			</div>
+			<!-- end col-6 -->
+		  </div>
+        <!-- end row -->
+      </div>
+      <!-- end container --> 
+    </section>
     
     <!-- end content-section -->
     <!-- end content-section -->
@@ -307,6 +331,24 @@
 </div>
 
 <!-- JS FILES --> 
+
+<script>
+var mySwiper = new Swiper ('.swiper-container', {
+    // Optional parameters
+    pagination: '.swiper-pagination',
+    paginationClickable: true,
+    nextButton: '.swiper-button-next',
+    prevButton: '.swiper-button-prev',
+    spaceBetween: 0,
+    parallax: true,
+    autoplay: 5000,
+    speed: 800,
+    autoplayDisableOnInteraction: false
+});
+
+
+</script>
+
 <script src="js/jquery.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/gsap.min.js"></script> 
