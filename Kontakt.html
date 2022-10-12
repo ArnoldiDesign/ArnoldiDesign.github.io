@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="theme-color" content="#feed01"/>
-<title>Über Mich | Goldschmiede, Kunstgalerie und Self-Development</title>
+<title>ÜKontakt | Goldschmiede, Kunstgalerie und Self-Development</title>
 <meta name="author" content="Arnoldi Design">
 <meta name="description" content="Die Kunstwerkstätte in Bad Grönenbach ist der ideale Ort für Ruth Steffnys Goldschmiede, Kunstausstellungen und Begegnungen bei Workshops und Seminaren im Bereich Kunst und Self-Development.">
 <meta name="keywords" content="">
@@ -40,7 +40,7 @@
   <div class="inner">
     <canvas class="progress-bar" id="progress-bar" width="200" height="200"></canvas>
     <figure><img src="images/preloader.png" alt="Image"></figure>
-    <small>Lädt</small> </div>
+    <small></small> </div>
   <!-- end inner --> 
 </div>
 <!-- end preloder -->
@@ -130,7 +130,7 @@
         </ul>
       </div>
       <!-- end site-menu -->
-      <div class="search-button"> <i class="far fa-search"></i> </div>
+      <div class="search-button"></div>
       <!-- end search-button -->
       
       <div class="navbar-button"> <a href="Kontakt.html">KONTAKT</a> </div>
@@ -196,7 +196,7 @@
 			</div>
 			<!-- end col-5 -->
 			<div class="col-lg-5">
-			<div class="contact-form">
+			<form class="contact-form" action="Kontakt.php" method="post" enctype="multipart/form-data" onsubmit="return checkForm(this);" onclick="">
 				<div class="mb-3">
 				<input type="text" placeholder="Ihr Name">
 				</div>
@@ -217,7 +217,7 @@
 					<input type="submit" value="Senden">
 				</div>
 				<!-- end mb-3 -->
-				</div>
+      </form>
 				<!-- end contact-form -->
 			</div>
 			<!-- end col-5 -->
