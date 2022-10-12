@@ -1346,6 +1346,16 @@ button[type="submit"] i {
   background-size: cover !important;
   background-position: center !important;
 }
+
+.content-section-events {
+  width: 100%;
+  display: block;
+  padding: 15px 0px 120px 0px;
+  position: relative;
+  background-size: cover !important;
+  background-position: center !important;
+}
+
 .content-section .container {
   position: relative;
   z-index: 1;
