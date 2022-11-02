@@ -67,12 +67,27 @@ theme.
   outline: none !important;
 }
 
+/*POPUP*/
+.popup{
+  position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    display: none;
+}
+
+#nowidth{
+  width: 100%;
+}
+#width80{
+  width: 80%;
+}
+
+
 .no-mgpd {
   margin: 0px;
   padding: 0px;
 }
-
-
 
 body {
   

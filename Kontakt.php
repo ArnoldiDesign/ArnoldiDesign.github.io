@@ -1,25 +1,19 @@
 <?php
 
-$causeofparty = $_POST['causeofparty']; // For some reason it is not getting the name
-$dateofparty = $_POST['dateofparty'];
-$Personenanzahl = $_POST['Personenanzahl'];
 $name = $_POST['name'];
-$address = $_POST['address'];
-$plz = $_POST['plz'];
-$ort = $_POST['ort'];
+$betreff = $_POST['betreff'];
 $email = $_POST['email'];
-$phone = $_POST['phone'];
-$message = $_POST['message'];
+$nachricht = $_POST['nachricht'];
 
 
-$formcontent= "Ein neuer Kunde hat uber die Website Kontakt aufgenommen. \n \n Anlass Ihrer Feier: $causeofparty \n \n Datum Ihrer Feier: $dateofparty \n \n ca. Personenanzahl: $Personenanzahl \n \n Vor-und Nachname: $name \n \n Strasse: $address \n \n PLZ: $plz \n \n ORT: $ort \n \n E-mail: $email \n \n Telefon: $phone \n \n Nachricht: $message ";
+$formcontent= "Ein neuer Kunde hat uber die Website Kontakt aufgenommen. \n \n Vor-und Nachname: $name \n \n Betreff: $betreff \n \n E-mail: $email \n \n Nachricht: $nachricht ";
 
 
-$subject = "Marienhof Website - Ein neuer Kunde!";
-$recipient = "mail@feierninmainz.de";
+$subject = "KUNSTWERKSTÄTTE Website - Ein neuer Kunde!";
+$recipient = "gabrielmarinhoworks@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader);
-header("Location: https://feierninmainz.de/Kontaktsuccess.html", TRUE, 301); 
+header("Location: https://google.com", TRUE, 301); 
 
 function IsInjected($str)
 {

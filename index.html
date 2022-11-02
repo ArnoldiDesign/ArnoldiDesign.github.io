@@ -144,8 +144,8 @@
           <div class="swiper-slide" data-background="images/home_slides/slide_1.png">
 			<div class="mobile-slide" data-background="images/home_slides/slide_1.png"></div>
 			</div>
-          <div class="swiper-slide" data-background="images/home_slides/KWS-0064.jpg">
-			<div class="mobile-slide" data-background="images/home_slides/KWS-0064.jpg"></div>
+          <div class="swiper-slide" data-background="images/home_slides/slide_2second.jpg">
+			<div class="mobile-slide" data-background="images/home_slides/slide_2second.jpg"></div>
 			</div>
           <div class="swiper-slide" data-background="images/home_slides/slide_3.jpg">
 			<div class="mobile-slide" data-background="images/home_slides/slide_3.jpg"></div>
@@ -153,14 +153,14 @@
           <div class="swiper-slide" data-background="images/slide01testmeditation.png">
       <div class="mobile-slide" data-background="images/slide-mobile03.jpg"></div>
       </div>
-      <div class="swiper-slide" data-background="images/Goldschimiede/masterpiece_6139b03-1-p-1600.png">
-        <div class="mobile-slide" data-background="images/Goldschimiede/masterpiece_6139b03-1-p-1600.png"></div>
+      <div class="swiper-slide" data-background="images/home_slides/slide_55.jpg">
+        <div class="mobile-slide" data-background="images/home_slides/slide_55.jpg"></div>
         </div>
-        <div class="swiper-slide" data-background="images/slide01testmeditation.png">
-          <div class="mobile-slide" data-background="images/slide-mobile03.jpg"></div>
+        <div class="swiper-slide" data-background="images/home_slides/slide_66.jpg">
+          <div class="mobile-slide" data-background="images/home_slides/slide_66.jpg"></div>
           </div>
-          <div class="swiper-slide" data-background="images/slide01testmeditation.png">
-            <div class="mobile-slide" data-background="images/slide-mobile03.jpg"></div>
+          <div class="swiper-slide" data-background="images/home_slides/slide7.png">
+            <div class="mobile-slide" data-background="images/home_slides/slide7.png"></div>
             </div>
         </div>
         <!-- end swiper-wrapper -->
@@ -235,8 +235,8 @@
           <div class="swiper-slide">
             <div class="container-fluid">
               
-              <h1>Auf der suche nach <br>
-                einem kunstwerk? </h1>
+              <h1>Auf der suchen <br> nach 
+                einem <br> kunstwerk? </h1>
               
             </div>
             <!-- end container --> 
@@ -283,8 +283,9 @@
                 Kunstausstellungen <br> 
                 Seminare & Workshops <br>
                 Self Development <br>
-                
                 </h2>
+                
+
             </div>
             <!-- end section-title --> 
           </div>
@@ -311,11 +312,12 @@
                   <div class="content">
                     <h5>Unsere Adresse</h5>
                     <p>Silcherstraße 15 . D-87730 Bad Grönenbach</p>
+                    <a target= _blank href="https://goo.gl/maps/BdoFFXn5aFxgacVn7">Routenplaner</a>
                   </div>
                   <!-- end content --> 
                 </li>
                 <li>
-                  <figure> <img src="images/icon02.png" alt="Image"> </figure>
+                  <figure> <img src="images/contact-mail.png" alt="Image"> </figure>
                   <div class="content">
                     <h5>KONTAKTIERE UNS!</h5>
                     <p>Tel + 49 (0) 8334 989 50 59 <br>
@@ -334,7 +336,46 @@
       <!-- end container --> 
     </section>
     <!-- end content-section -->
-    <section class="content-section">
+
+     <!--POPUP-->
+         <div class="popup">
+          
+            <div class="newsletter-box" style="width: 36%;justify-content: center;visibility: hidden;">
+              <div id="width80" style="padding:2%" class="form">
+                <div class="titles" style="padding:2%">
+                  <h6>Abonniere unseren Newsletter</h6>
+                  <h2>Bleibe auf dem Laufenden</h2>
+                </div>
+                <!-- end titles -->
+                <form action="https://gmail.us6.list-manage.com/subscribe/post?u=f370c2cce8e3a1b7519895a2e&amp;amp;id=7f18e27ee9" method="post" class="inner" id="nowidth">
+                  <input type="email" name="email" placeholder="Gib Deine E-Mail-Adresse ein." >
+                  <input type="submit" value="ANMELDEN">   
+                </form>
+                <!-- end inner --> 
+                <small>
+                  Wird in Übereinstimmung mit unserer 
+                  <a href="#">Datenschutzrichtlinie</a></small>verwendet </div>
+              <!-- end form -->
+            </div>
+            <!-- end newsletter-box --> 
+          </div>
+          <!-- end col-12 -->
+          <script>
+            window.addEventListener("load", function(){
+          setTimeout(
+              function open(event){
+                  document.querySelector(".popup").style.display = "block";
+              },
+              1000 
+          )
+      });
+      document.querySelector("#close").addEventListener("click", function(){
+          document.querySelector(".popup").style.display = "none";
+      });
+          </script>
+
+
+    <section class="content-section" style="padding-bottom: 60px;">
   
       <!-- end container -->
       <div class="container">
@@ -414,7 +455,7 @@
           <!-- end col-4 -->
           <div class="col-lg-4">
             <div class="image-icon-box" data-scroll data-scroll-speed="0">
-              <figure class="icon"> <img src="images/icon05.png" alt="Image"> </figure>
+              <figure class="icon"> <img src="images/icon06.png" alt="Image"> </figure>
               <figure class="content-image"> <img src="images/Kunstgalerie/kunstgalerie_1.png" alt="Image"> </figure>
               <div class="content-box"> <b>02.</b>
                 <h4>Kunstgalerie</h4>
@@ -429,7 +470,7 @@
           <!-- end col-4 -->
           <div class="col-lg-4">
             <div class="image-icon-box" data-scroll data-scroll-speed="0">
-              <figure class="icon"> <img src="images/icon06.png" alt="Image"> </figure>
+              <figure class="icon"> <img src="ico/calendar.png" alt="Image"> </figure>
               <figure class="content-image"> <img src="images/Workshop9-p-800.jpeg" alt="Image"> </figure>
               <div class="content-box"> <b>03.</b>
                 <h4>Eventkalender</h4>
@@ -528,6 +569,7 @@
 </div>
 
 <!-- JS FILES --> 
+
 <script src="js/jquery.min.js"></script> 
 <script src="js/bootstrap.min.js"></script> 
 <script src="js/gsap.min.js"></script> 
