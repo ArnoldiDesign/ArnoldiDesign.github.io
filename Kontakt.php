@@ -13,7 +13,7 @@ $subject = "KUNSTWERKSTÄTTE Website - Ein neuer Kunde!";
 $recipient = "gabrielmarinhoworks@gmail.com";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader);
-header("Location: https://google.com", TRUE, 301); 
+header("Location: Kontakt_sucess.html", TRUE, 301); 
 
 function IsInjected($str)
 {
