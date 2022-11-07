@@ -10,10 +10,10 @@ $formcontent= "Ein neuer Kunde hat uber die Website Kontakt aufgenommen. \n \n V
 
 
 $subject = "KUNSTWERKSTÄTTE Website - Ein neuer Kunde!";
-$recipient = "gabrielmarinhoworks@gmail.com";
+$recipient = "info@kunstwerkstaette.life";
 $mailheader = "From: $email \r\n";
 mail($recipient, $subject, $formcontent, $mailheader);
-header("Location: Kontakt_sucess.html", TRUE, 301); 
+header("Location: Kontaktdanke.html", TRUE, 301); 
 
 function IsInjected($str)
 {

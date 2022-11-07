@@ -1460,6 +1460,17 @@ button[type="submit"] i {
   letter-spacing: -2px;
   line-height: 1;
 }
+
+.section-title h3 {
+  width: 100%;
+  display: block;
+  margin-bottom: 0;
+  font-size: 50px;
+  font-family: 'Cinzel', serif;
+  letter-spacing: -2px;
+  line-height: 1;
+}
+
 .section-title h2 strong {
   font-weight: 600;
 }
